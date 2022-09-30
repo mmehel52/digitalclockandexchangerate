@@ -1,0 +1,66 @@
+@font-face {
+  font-family: digitalClock;
+  src: url("./digital-7.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  color: #fff;
+}
+#clock {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 50%;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+}
+
+.clock-items {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: rgb(85, 232, 0);
+  font-family: digitalClock;
+  font-size: 60px;
+}
+#date {
+  margin-top: 20px;
+  font-family: digitalClock;
+  font-size: 30px;
+}
+container {
+  padding: 30px;
+}
+
+/* *********exchange************************** */
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+}
+.card {
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  height: 50px;
+  border-radius: 20px;
+}
+
+h1 {
+  color: red;
+  font-size: 25px;
+  font-family: digitalClock;
+}
+span {
+  font-size: 20px;
+  color: red;
+  font-family: digitalClock;
+}
