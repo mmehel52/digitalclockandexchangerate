@@ -11,15 +11,6 @@ body {
   background-color: black;
   color: #fff;
 }
-#clock {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: 50%;
-  position: absolute;
-  top: 30%;
-  left: 30%;
-}
 
 .clock-items {
   width: 100%;
@@ -27,18 +18,22 @@ body {
   color: rgb(85, 232, 0);
   font-family: digitalClock;
   font-size: 60px;
+  text-align: center;
 }
 #date {
   margin-top: 20px;
   font-family: digitalClock;
   font-size: 30px;
+  text-align: center;
 }
-container {
-  padding: 30px;
+#clock {
+  margin-top: 150px;
 }
 
 /* *********exchange************************** */
-
+.container {
+  margin-top: 10px;
+}
 .row {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
