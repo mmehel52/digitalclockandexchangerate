@@ -7,7 +7,7 @@ Project aims to display current exchange rate dollar,sterlin and euro with fetch
  [👍click here to see page](https://mmehel52.github.io/digitalclockandexchangerate/)
  
 ## Demo
-<img src="https://github.com/mmehel52/weatherforecast/blob/main/Animation.gif" width="900"/>
+<img src="https://github.com/mmehel52/digitalclockandexchangerate/blob/main/Animation.gif" width="900"/>
 
 
       
